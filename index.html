@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="pageTitle">Aurélien Leclercq — Applications Produit</title>
+  <meta name="description" content="Exemples d'applications conçues par Aurélien Leclercq avec l'appui de l'IA : patrimoine, budget, cave, véhicules, santé, sport.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f5efe6">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231f3d36'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23c4552d'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Accueil" data-i18n-aria="brandAria"><span class="dot"></span>Aurélien Leclercq</a>
+    <div class="topbar-right">
+      <nav aria-label="Sections" data-i18n-aria="navAria">
+        <a href="#methode" data-i18n="navMethod">Méthode</a>
+        <a href="#applications" data-i18n="navExamples">Exemples</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Langue" data-i18n-aria="langAria">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true">
+        <span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span>
+      </div>
+      <p class="eyebrow" data-i18n="eyebrow">Portfolio d'applications du quotidien</p>
+      <p class="ai-pill"><span aria-hidden="true">✦</span> <span data-i18n="aiPill">Conçues avec l'IA, pilotées par l'humain</span></p>
+      <h1 data-i18n-html="heroTitle">Des applications <em>utiles</em>,<br>conçues avec l'IA.</h1>
+      <p class="lead" data-i18n="lead">Quelques exemples de ce que je sais faire : partir d'un besoin concret et, avec l'appui de l'intelligence artificielle, en faire un outil clair, fiable et agréable à utiliser.</p>
+      <a class="btn" href="#applications" data-i18n="ctaExamples">Voir les exemples</a>
+    </section>
+
+    <section class="method" id="methode">
+      <div class="method-inner">
+        <div class="method-head">
+          <span class="num" data-i18n="methodLabel">Ma méthode</span>
+          <h2 data-i18n="methodTitle">L'IA accélère, je garde la main</h2>
+          <p data-i18n="methodText">J'utilise l'intelligence artificielle comme un partenaire de développement : elle fait gagner un temps précieux, mais les choix, la qualité et la responsabilité restent les miens.</p>
+        </div>
+        <ol class="steps">
+          <li><b data-i18n="step1Title">Cadrer</b><span data-i18n="step1Text">En brainstorming avec l'IA : besoin, marché actuel, concurrents, faisabilité. Les règles métier et le résultat attendu sont fixés avant d'écrire la moindre ligne.</span></li>
+          <li><b data-i18n="step2Title">Construire avec l'IA</b><span data-i18n="step2Text">Je pilote l'assistant par itérations rapides : prototype, retour, ajustement.</span></li>
+          <li><b data-i18n="step3Title">Relire et vérifier</b><span data-i18n="step3Text">Chaque résultat est relu, testé et corrigé. L'IA propose, je décide.</span></li>
+          <li><b data-i18n="step4Title">Sécuriser et documenter</b><span data-i18n="step4Text">Gestion des données, bonnes pratiques et documentation pour que l'outil dure.</span></li>
+          <li><b data-i18n="step5Title">Améliorer</b><span data-i18n="step5Text">Avec l'IA, je fais le bilan : ce qui a marché, ce qui a coincé. J'en tire une norme et j'améliore l'assistant pour que la séquence suivante soit plus rapide et plus fiable.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="apps-head" id="applications">
+      <h2 data-i18n="examplesTitle">Exemples de réalisations</h2>
+      <div class="chips" id="chips" role="group" aria-label="Filtrer par thème" data-i18n-aria="filterAria"></div>
+    </section>
+
+    <div id="apps"></div>
+
+    <section class="closing">
+      <h2 data-i18n="closingTitle">Du besoin au produit.</h2>
+      <p data-i18n="closingText">Ces réalisations illustrent ma pratique du product management : comprendre un besoin, cadrer, arbitrer, livrer, puis améliorer, avec l'IA comme accélérateur.</p>
+      <a class="btn" href="https://www.linkedin.com/in/aurelien-leclercq-6755035b" rel="noopener" data-i18n="linkedin">Retrouvez-moi sur LinkedIn</a>
+    </section>
+  </main>
+
+  <footer data-i18n="footer">© 2026 Aurélien Leclercq — Captures d'écran réalisées avec des données de démonstration.</footer>
+
+  <dialog id="lightbox" aria-label="Aperçu de la capture" data-i18n-aria="lightboxAria">
+    <button class="lb-close" type="button" aria-label="Fermer" data-i18n-aria="close">×</button>
+    <img alt="">
+    <p></p>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
