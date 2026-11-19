@@ -152,25 +152,29 @@ window.PORTFOLIO = {
       name: { fr: "Mon budget", en: "My Budget" },
       description: { fr: "Suivi du budget familial", en: "Family budget tracking" },
       problem: {
-        fr: "Réduire ses charges et ses abonnements : repérer facilement les économies réalisables.",
-        en: "Identifying unnecessary expenses and redundant subscriptions to unlock quick savings."
+        fr: "Réduire ses charges et ses abonnements : repérer facilement les économies réalisables, avec un comparateur d'offres indépendant des plateformes de comparaison.",
+        en: "Identifying unnecessary expenses and redundant subscriptions to unlock quick savings, with an offer comparator independent of comparison platforms."
       },
       skills: {
         fr: [
-          "Rendre des chiffres parlants : indicateurs clés, répartition et tendances",
-          "Aider à la décision grâce à des pistes d'optimisation chiffrées",
+          "Rendre des chiffres parlants pour suivre son budget : indicateurs clés, répartition, tendances, consommation",
+          "Avoir un suivi de consommation d'énergie clair et simple",
+          "Aider à la décision grâce à des pistes d'optimisation chiffrées et un comparateur d'offres",
           "Créer une interface chaleureuse et cohérente, du poste de travail au téléphone mobile"
         ],
         en: [
-          "Transformed raw numbers into meaningful insights: KPIs, spending breakdowns, and trends",
-          "Supported user decision-making with actionable, data-driven optimization insights",
-          "Created a warm, consistent user experience from desktop to mobile screens"
+          "Turned raw numbers into meaningful insights to track a budget: key indicators, breakdowns, trends, consumption",
+          "Provided clear, simple energy consumption tracking",
+          "Supported decisions with quantified optimization leads and an offer comparator",
+          "Created a warm, consistent interface from desktop to mobile"
         ]
       },
       images: [
         { file: "20-budget-synthese.webp", kind: "wide", alt: { fr: "Synthèse du budget", en: "Budget overview" } },
         { file: "21-budget-epargne.webp", kind: "wide", alt: { fr: "Suivi de l'épargne", en: "Savings tracking" } },
-        { file: "22-budget-mobile-evolution-charges.webp", kind: "phone", alt: { fr: "Évolution des charges sur mobile", en: "Expense trends on mobile" } }
+        { file: "23-budget-comparateur.webp", kind: "wide", alt: { fr: "Comparateur d'offres d'énergie", en: "Energy offer comparator" } },
+        { file: "22-budget-mobile-evolution-charges.webp", kind: "phone", alt: { fr: "Évolution des charges sur mobile", en: "Expense trends on mobile" } },
+        { file: "24-budget-mobile-comparateur.webp", kind: "phone", alt: { fr: "Comparateur d'offres sur mobile", en: "Offer comparator on mobile" } }
       ]
     },
     {
@@ -285,10 +289,40 @@ window.PORTFOLIO = {
       ]
     },
     {
+      id: "cartes",
+      category: "maison",
+      accent: "#6a3fa0",
+      name: { fr: "Mes cartes fidélité", en: "My Loyalty Cards" },
+      description: { fr: "Toutes mes cartes de fidélité sur le téléphone, même sans réseau", en: "All my loyalty cards on my phone, even offline" },
+      problem: {
+        fr: "Retrouver en quelques secondes la bonne carte en caisse, sans fouiller dans un portefeuille ni jongler entre plusieurs applications d'enseignes.",
+        en: "Find the right card at the checkout in seconds, without digging through a wallet or juggling several store apps."
+      },
+      skills: {
+        fr: [
+          "Tenir le pari de la simplicité : une application très simple, qui ne contient que mes cartes",
+          "Concevoir pour le téléphone d'abord : une expérience simplifiée, code barre accessible en 1 clic",
+          "Garantir l'usage hors connexion : sauvegarde en local et synchronisation",
+          "Fiabiliser la saisie : gestion des différents codes barres et QR Codes"
+        ],
+        en: [
+          "Kept simplicity as the core bet: a very simple app that holds only my cards",
+          "Designed mobile-first: a streamlined experience, barcode one tap away",
+          "Made offline use dependable: local storage and synchronization",
+          "Made data entry reliable: support for the different barcode formats and QR codes"
+        ]
+      },
+      images: [
+        { file: "95-cartes-mobile-liste.webp", kind: "phone", alt: { fr: "Liste des cartes sur mobile", en: "Card list on mobile" } },
+        { file: "96-cartes-mobile-carte.webp", kind: "phone", alt: { fr: "Carte avec son code-barres sur mobile", en: "Card with its barcode on mobile" } },
+        { file: "97-cartes-mobile-synchro.webp", kind: "phone", alt: { fr: "Synchronisation hors connexion sur mobile", en: "Offline sync on mobile" } }
+      ]
+    },
+    {
       id: "katas",
       category: "sports",
       accent: "#b0432a",
-      name: { fr: "Katas Shotokan", en: "Shotokan Katas" },
+      name: { fr: "Karaté", en: "Karaté" },
       description: { fr: "Mon programme d'apprentissage des katas", en: "Shotokan karate learning assistant" },
       problem: {
         fr: "Structurer et faciliter la mémorisation et la pratique autonome du karaté.",
@@ -336,6 +370,36 @@ window.PORTFOLIO = {
       images: [
         { file: "80-eclipses-mobile-liste.webp", kind: "phone", alt: { fr: "Liste des éclipses", en: "Upcoming eclipse schedule" } },
         { file: "81-eclipses-mobile-detail.webp", kind: "phone", alt: { fr: "Détail d'une éclipse", en: "Detailed eclipse metrics" } }
+      ]
+    },
+    {
+      id: "voyages",
+      category: "loisirs",
+      accent: "#d9672a",
+      name: { fr: "Voyages", en: "Travel" },
+      description: { fr: "Où partir selon le mois, avec budget estimé et carnet de voyages", en: "Where to go by month, with estimated budget and travel log" },
+      problem: {
+        fr: "Choisir où partir selon le mois en un coup d'œil, en croisant météo, saison et budget plutôt que d'aller sur plusieurs sites.",
+        en: "Choose where to go depending on the month, at a glance, weighing weather, season and budget instead of jumping between several websites."
+      },
+      skills: {
+        fr: [
+          "Recommander chaque zone du monde mois par mois et aider à choisir la destination",
+          "Constituer un référentiel consolidé avec l'IA, à partir de plusieurs sources de données",
+          "Garder la trace de chaque voyage : carte des pays visités, étapes et budget, photos issues d'une banque d'images à licence libre",
+          "Proposer une même application sur bureau et sur mobile, avec une disposition propre à chaque usage"
+        ],
+        en: [
+          "Recommended every region of the world month by month, to help pick the right destination",
+          "Built a reference dataset with AI, consolidated from several data sources",
+          "Kept a record of every trip: visited-countries map, stops and budget, with photos from an openly licensed image library",
+          "Delivered one app for desktop and mobile, with a layout suited to each use"
+        ]
+      },
+      images: [
+        { file: "90-voyages-ou-partir.webp", kind: "wide", alt: { fr: "Où partir ? Carte du monde et classement des zones", en: "Where to go? World map and ranked zones" } },
+        { file: "91-voyages-recap-voyage.webp", kind: "wide", alt: { fr: "Récap d'un voyage : circuit et étapes", en: "Trip summary: route and stops" } },
+        { file: "92-voyages-mobile-mes-voyages.webp", kind: "phone", alt: { fr: "Mes voyages sur mobile", en: "My trips on mobile" } }
       ]
     }
   ]
