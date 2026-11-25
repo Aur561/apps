@@ -171,7 +171,7 @@ window.PORTFOLIO = {
       },
       images: [
         { file: "20-budget-synthese.webp", kind: "wide", alt: { fr: "Synthèse du budget", en: "Budget overview" } },
-        { file: "21-budget-epargne.webp", kind: "wide", alt: { fr: "Suivi de l'épargne", en: "Savings tracking" } },
+        { file: "21-budget-charges.webp", kind: "wide", alt: { fr: "Charges et pistes d'économies", en: "Expenses and savings opportunities" } },
         { file: "23-budget-comparateur.webp", kind: "wide", alt: { fr: "Comparateur d'offres d'énergie", en: "Energy offer comparator" } },
         { file: "22-budget-mobile-evolution-charges.webp", kind: "phone", alt: { fr: "Évolution des charges sur mobile", en: "Expense trends on mobile" } },
         { file: "24-budget-mobile-comparateur.webp", kind: "phone", alt: { fr: "Comparateur d'offres sur mobile", en: "Offer comparator on mobile" } }
